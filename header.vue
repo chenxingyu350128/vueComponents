@@ -6,10 +6,10 @@
         <i class="xiyu  iconleft"></i>
       </v-flex>
       <v-flex xs6 class="text-center title">
-				<!-- 针对中部复杂化的情况，使用slot则不使用props中的text -->
-				<slot name="center"></slot>
-				{{text}}
-			</v-flex>
+	<!-- 针对中部复杂化的情况，使用slot则不使用props中的text -->
+	<slot name="center"></slot>
+	{{text}}
+      </v-flex>
       <v-flex class="subtitle-2 text-center v-rating"  @click="edit" xs3>{{rightText}}</v-flex>
     </v-layout>
   </v-card>
