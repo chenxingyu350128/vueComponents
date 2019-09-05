@@ -1,5 +1,5 @@
-# vueComponents
-通用组件
+# vueComponents 通用组件
+
 ##header头部组件
 ## v-slot:center应对中部复杂化的情景
 ## slideToDelete 滑动删除，组件内部仅提供滑动的方法（methods）,检测全体的滑动状态及滑块复位全在父组件中进行
